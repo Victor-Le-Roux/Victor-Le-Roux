@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="960" height="200" viewBox="0 0 960 200"
+     role="img" aria-labelledby="title description">
+  <title id="title">Victor Le Roux</title>
+  <desc id="description">
+    Student at 42, working on projects in C.
+    A paper-inspired header with a small abstract technical diagram.
+  </desc>
+
+  <!-- Estampe paper surface -->
+  <rect width="960" height="200" fill="#e7dfca"/>
+  <rect x="16" y="16" width="928" height="168"
+        fill="none" stroke="#b4a78a"/>
+
+  <!-- Identity -->
+  <text x="48" y="90"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="36" font-weight="600" fill="#3c3b31">
+    Victor Le Roux
+  </text>
+
+  <text x="50" y="126"
+        font-family="'JetBrains Mono', monospace"
+        font-size="15" fill="#726b58">
+    Student at 42 · Working on projects in C
+  </text>
+
+  <!-- Abstract components and connections -->
+  <g fill="none" stroke="#9e9175" stroke-width="1.5">
+    <rect x="704" y="56" width="68" height="40"/>
+    <rect x="812" y="104" width="68" height="40"/>
+    <path d="M772 76 H792 V124 H812"/>
+    <path d="M738 96 V124 H764"/>
+    <path d="M846 104 V76 H880"/>
+  </g>
+
+  <!-- Small terracotta marker -->
+  <rect x="875" y="71" width="10" height="10" fill="#a5543c"/>
+
+  <path d="M48 158 H912" stroke="#b4a78a"/>
+</svg>
